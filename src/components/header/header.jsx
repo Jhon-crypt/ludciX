@@ -23,7 +23,11 @@ export default function Header() {
                     <li><a className="text-sm text-blueGray-400 hover:text-blueGray-500" href="#">Blog</a></li>
                     <li><a className="text-sm text-blueGray-400 hover:text-blueGray-500" href="#">Contact</a></li>
                 </ul>
-                <div className="hidden lg:block"><a className="mr-2 inline-block px-4 py-3 text-xs text-blue-600 hover:text-blue-700 font-semibold leading-none border border-blue-200 hover:border-blue-300 rounded" href="#">Log In</a><a className="inline-block px-4 py-3 text-xs font-semibold leading-none bg-blue-600 hover:bg-blue-700 text-white rounded" href="#">Sign Up</a></div>
+                <div className="hidden lg:block">
+                    <a className="mr-2 inline-block px-4 py-3 text-xs text-blue-600 hover:text-blue-700 font-semibold leading-none border border-blue-200 hover:border-blue-300 rounded" href="#">
+                        Get early access
+                    </a>
+                    </div>
             </nav>
         
         </>
